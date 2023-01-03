@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/styles.css">
+    <script src="https://kit.fontawesome.com/4688d3d4b0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <div class="outer-body">
+        <div id="display"></div>
+        <div class="btn-container">
+            <div class="digit-container">
+                <button data-number>9</button>
+                <button data-number>8</button>
+                <button data-number>7</button>
+                <button data-number>6</button>
+                <button data-number>5</button>
+                <button data-number>4</button>
+                <button data-number>3</button>
+                <button data-number>2</button>
+                <button data-number>1</button>
+                <button data-number id="clear-btn">C</button>
+                <button data-number>0</button>
+                <button data-number id="delete-btn"><i class="fa-solid fa-delete-left"></i></button>
+            </div>
+            <div id="operands">
+                <button data-operator>+</button>
+                <button class="extra-operator sq-root"><i class="fa-solid fa-square-root-variable"></i></button>
+                <button data-operator>-</button>
+                <button id="negative">+/-</button>
+                <button data-operator class="btn multiply"><i class="fa-solid fa-xmark"></i></button>
+                <button class="extra-operator squared">x<sup class="micro-sup">2</sup></button>
+                <button data-operator class="btn divide"><i class="fa-solid fa-divide"></i></button>
+                <button class="extra-operator indexed">x<sup class="micro-sup">y</sup></button>
+                <button data-operator id="equals-btn" class="equals"><i class="fa-solid fa-equals"></i></button>
+                <!-- <button><i class="fa-solid fa-arrow-right-arrow-left"></i></button> -->
+            </div>
+        </div>
+    </div>
+
+    <!-- javascript -->
+    <script src="/app.js"></script>
+</body>
+</html>
